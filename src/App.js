@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './css/App.css';
-import Panel from './panel'
+import Login from './login';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <Panel></Panel>
+      <Login></Login>
     </div>
   );
 }
